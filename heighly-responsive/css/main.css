@@ -1,0 +1,99 @@
+main{
+    /* background-color: white; */
+    min-height: 500px;
+}
+#bgfixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    z-index: -2;
+    background-image: url("./../imgs/bg.jpg");
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.2);
+}
+.nav-over:hover{
+    color: rgb(255, 255, 255, .7) !important ;
+}
+.sexy-border{
+    border-width: 10px !important;
+
+}
+.sexy{
+    background-color: rgb(255, 255, 255, .5);
+}
+.sexy:hover{
+    background-color: transparent;
+}
+#nice{
+    /* background-color: rgba(52, 191, 73, 0.74); */
+    height: 50px;
+    /* margin-top: -25px; */
+    /* z-index: 6; */
+}
+.circ{
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0 20px 0 ;
+    padding-top: 50px;
+}
+.circ:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    /* transform: ; */
+
+}
+#circR , #circL{
+    padding-top: 110px;
+}
+
+#circR div:nth-child(1) i{
+    color: #ff4c4c ;
+}
+#circR div:nth-child(2) i{
+    color: #34bf49 ;
+}
+
+#circM div:nth-child(1) i{
+    color: #0dd3ff ;
+}
+#circM div:nth-child(2) i{
+    color: #ff4f81 ;
+}
+#circM div:nth-child(3) i{
+    color: #ffd900 ;
+}
+
+#circL div:nth-child(1) i{
+    color: #fe5000 ;
+}
+#circL div:nth-child(2) i{
+    color: #7d3f98 ;
+}
+
+#s4{
+    background: rgba(0, 0, 0, 0.7);
+}
+.trans{
+    background-color: rgba(250, 250, 250, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgba(255, 255, 255, 0);
+
+    transition: all .5s;
+}
+.trans:hover{
+    border-color:rgba(255, 255, 255, 0.8);
+    transform: scale(1.01);
+}
+.silght{
+    margin-top: -100px;
+}
+
+#footer{
+    /* color: #fff !important; */
+    background-color: #4d5972f5 !important;
+}
